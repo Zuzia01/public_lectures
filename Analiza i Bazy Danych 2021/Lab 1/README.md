@@ -1,6 +1,7 @@
+# Ćwiczenie 1 - Data Scientist Toolbox
 Celem zajęć jest zapoznanie się ze środowiskiem pracy na przedmiocie Analiza i Bazy Danych. 
 
-# Zadanie 1
+## Zadanie 1
 Zainstaluj wirtualne środowisko conda na systemie Ubuntu.
 
 1. Stworzenie środowiska wirtualnego, którego nazwa to imięnazwisko.
@@ -15,7 +16,7 @@ Materiały:
 
 [Python Pip List Freeze](https://note.nkmk.me/en/python-pip-list-freeze/)
 
-# Zadanie 2 
+## Zadanie 2 
 Utwórz własne repozytorium do przedmiotu na github.com.
  
 1. Utworzenie własnego repozytorium. 
@@ -23,7 +24,7 @@ Utwórz własne repozytorium do przedmiotu na github.com.
 3. Dodanie plików do repozytorium.
 4. Wstawienie linku do repozytorium do kursu na upel.agh.edu.pl.
 
-# Zadanie 3
+## Zadanie 3
 Zdefiniuj poniższą funkcję  i sporządź jej wykres dla argumentów z danego przedziału:
 
 $f(x)=x^2+5$ 
@@ -40,7 +41,7 @@ W Pythonie bloki kodu (w tym również funkcje) są wyróżniane za pomocą wci�
 
 W pliku mają być zawarte: imię, nazwisko, opis wykonywanego ćwiczenia - formatowanie markdown w poszczególnych komórkach.
 
-# Zadanie 4
+## Zadanie 4
 Utwórz [dataframe](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html), w którym kolumny mają nazwy: name, surname, age, sex. Uzupełnij pięcioma dowolnymi rekordami oraz wyświetl informacje o danych [pandas .info()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.info.html), opis danych [pandas .describe()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html), wyświetl pierwsze trzy rekordy [pandas .head()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.head.html).
 
 Plik z rozwiązaniem zadania 3 i zadania 4 opatrzonym komentarzami, dodaj do kursu na upel.agh.edu.pl
