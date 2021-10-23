@@ -101,7 +101,7 @@ def client_by_sum_length(sum_min:Union[int,float])->pd.DataFrame:
     |   |first_name |last_name  |sum
     |0  |Brian	    |Wyman  	|1265
     
-    Tabela wynikowa powinna być posortowane według sumy, imienia i nazwiska klienta.
+    Tabela wynikowa powinna być posortowane według sumy, nazwiska i imienia klienta.
     Jeżeli warunki wejściowe nie są spełnione to funkcja powinna zwracać wartość None.
         
     Parameters:
