@@ -283,7 +283,7 @@ Klauzula GROUP BY ma zastosowanie, podczas gdy klauzula WHERE określa wcześnie
 ## Zadania wprowadzające
 Wykonaj zapytania przy użyciu DBMS:  
   
-1. Znajdź listę wszystkich filmów o tej samej długości.
+1. Znajdź liczbę wszystkich filmów o tej samej długości.
 2. Znajdź wszystkich klientów mieszkających w tym samym mieście.
 3. Oblicz średni koszt wypożyczenia wszystkich filmów.
 4. Oblicz i wyświetl liczbę filmów we wszystkich kategoriach.
