@@ -1,5 +1,4 @@
 # Baza danych przestrzennych/PostGIS
-
 Przestrzenna baza danych to baza danych zoptymalizowana pod kątem przechowywania i wykonywania zapytań dotyczących danych reprezentujących obiekty geometryczne. Większość baz danych przestrzennych umożliwia reprezentację prostych obiektów geometrycznych, takich jak punkty, linie i wielokąty. Niektóre bazy danych przestrzennych obsługują bardziej złożone struktury, takie jak obiekty 3D, pokrycia topologiczne, sieci liniowe itp.
 
 Open Geospatial Consortium (OGC) opracowało specyfikację Simple Features (po raz pierwszy wydaną w 1997 r.) i wyznaczył standardy dodawania przestrzennej funkcjonalności do systemów baz danych. Standard SQL/MM Spatial ISO/IEC jest częścią standardu multimedialnego SQL/MM i rozszerza standard Simple Features.
@@ -49,21 +48,21 @@ sudo apt-get install postgis
 	
 	
 ### Utwórz bazę danych przestrzennych
+Użytkownik i hasło do lokalnej bazy danych to *postgres*
 
-1. Uruchom PgAdmina
+1. Stwórz bazę danych przy pomocy psql lub PgAdmina z ustawieniami \([pomoc](https://www.postgresqltutorial.com/connect-to-postgresql-database/)\):
+	- Baza danych: lab11_nyc
+	- Właściciel: postgres
 
-2. Utwórz bazę danych z ustawieniami:
-	- Baza danych: lab10_nyc
-	- Właściciel: Twój administrator
 
-3. Otwórz *Narzędzie do wysyłania zapytań* dla lab10_nyc
+2. Otwórz w terminalu lab11_nyc
 
-4. Dodaj rozszerzenie przestrzenne do tej bazy danych za pomocą zapytania:
+3. Dodaj rozszerzenie przestrzenne do tej bazy danych za pomocą zapytania:
 ``` sql
 CREATE EXTENSION postgis;
 
 ```
-5. Potwierdź, że PostGIS jest zainstalowany, uruchamiając funkcję PostGIS:
+4. Potwierdź, że PostGIS jest zainstalowany, uruchamiając funkcję PostGIS:
 
 ``` sql
 select postgis_full_version();
@@ -90,7 +89,7 @@ shp2pgsql \
   -s 26918 \
   nyc_census_blocks.shp \
   nyc_census_blocks \
-  | psql dbname=nyc user=postgres host=localhost
+  | psql -h localhost -d mydatabase -U postgres -p <port>
 ```
 
 #### Windows
