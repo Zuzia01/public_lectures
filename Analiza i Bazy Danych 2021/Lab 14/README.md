@@ -193,13 +193,10 @@ def test_extract_sentiment():
 Nasz test nie wykona się pozytywnie, więc zgodnie z podejściem TDD, teraz musimy napisać odpowiadającą funkcję, tak aby test przeszedł. 
 W pliku **app.py** dodajmy nową metodę:
 ```
-def test_extract_sentiment():
+def extract_sentiment(text):
+    text = TextBlob(text)
 
-    text = "I think today will be a great day"
-
-    sentiment = extract_sentiment(text)
-
-    assert sentiment > 0
+    return text.sentiment.polarity
 ```
 
 Musimy też doinstalować biblotekę TextBlox:
