@@ -76,7 +76,7 @@ At AGH, we have the option to create your own database at [panel.agh.edu.pl](htt
 3. You can read your login and password in table *Twoje bazy MySQL*
 
 ### Create table
-1. Log in to the AGH [phpMyAdmin](mysql.agh.edu.pl) interface
+1. Log in to the AGH [phpMyAdmin](https://mysql.agh.edu.pl/phpMyAdmin) interface
 2. From left sidebar select your database name
 3. Go to tab *Struktura* set name your table and number of columns
 4. Click *Wykonaj*
@@ -87,6 +87,7 @@ At AGH, we have the option to create your own database at [panel.agh.edu.pl](htt
 PostgreSQL also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance. It is the default database for macOS Server and is also available for Windows, Linux, FreeBSD, and OpenBSD.
 
 [pgAdmin](https://www.pgadmin.org/) is an open source program for managing and work with the PostgreSQL database. Currently the program is marked as pgAdmin 4. It is the next, fourth branch of the program development written in Python.
+
 
 ### Set pgAdmin connection to server
 1. Open pgAdmin
