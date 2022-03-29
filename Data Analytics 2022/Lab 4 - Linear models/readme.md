@@ -29,3 +29,26 @@ Tasks for whole exercise are specified in the labolatory notebook. Here you can 
 ```height_2b_ppc.stan```
 
 ![alt text](height_2b_ppc.png)  
+
+## Excercise 2 - modelling sparisty
+Code for models:
+
+```generate_data.stan```
+
+![alt text](generate_data.png)
+<hr>
+
+```model1.stan```
+
+![alt text](model1.png)
+<hr>
+
+```model2.stan```
+
+![alt text](model2.png)
+<hr>
+
+```model3.stan```
+
+![alt text](model3.png)
+<hr>
