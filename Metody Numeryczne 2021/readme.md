@@ -48,9 +48,9 @@ Metody Numeryczne 2021/2022
 51. Metody homotopii (ogólna idea)
 52. Całkowanie w czasie rzeczywistym, Metody Eulera, trapezów
 53. Kwadratury interpolacyjne, Rząd wielomianowy kwadratury
-54. Warianty kwadratury Gaussa
-55. Wyznaczanie wag i węzłów kwadratury Clenshawa-Curtisa
-56. Wyznaczanie wag i węzłów kwadratury Gaussa-Legendre'a
+54. Kwadratura Clenshawa-Curtisa Wyznaczanie wag i węzłów.
+55. Kwadratura Gaussa Legendre'a. Wyznaczanie wag i węzłów kwadratury.
+56. Kwadratura Gaussa-Lobatto 
 57. Kwadratury adaptacyjne (zasada działania)
 58. Istnienie i jednoznaczność rozwiązania równania różniczkowego, warunek Lipschitza
 59. Metoda eulera w przód, dokładność, błąd, łamana Eulera
