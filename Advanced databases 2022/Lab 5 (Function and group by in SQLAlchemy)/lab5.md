@@ -78,7 +78,7 @@ mapper_stmt = select([dic_table['actor'].c.first_name]).group_by(dic_table['acto
 print('Mapper group: ')
 print(mapper_stmt)
 
-session_stmt = session.query(Actor.first_name, Actor.last_name).group_by(Actor.first_name)
+session_stmt = session.query(Actor.first_name, Actor.last_name).group_by(Actor.first_name,,Actor.last_name)
 print('Session group by: ')
 print(session_stmt)
 ```
