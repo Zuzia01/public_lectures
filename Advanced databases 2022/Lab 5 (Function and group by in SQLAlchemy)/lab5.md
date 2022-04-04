@@ -100,6 +100,13 @@ session_stmt = session.query(Actor.first_name, Actor.last_name).group_by(Actor.f
 
 ```
 
+Of course, if we need filtering result of aggregation we can use function [having](https://docs.sqlalchemy.org/en/14/orm/query.html#sqlalchemy.orm.Query.having):
+
+```python 
+mapper_stmt = select([dic_table['actor'].c.first_name, dic_table['actor'].c.last_name]).group_by(dic_table['actor'].c.first_name, dic_table['actor'].c.last_name).having(func.count(dic_table['actor'].c.first_name) > 1)
+
+session_stmt = session.query(Actor.first_name, Actor.last_name).group_by(Actor.first_name,Actor.last_name).having(func.count(Actor.first_name) > 1)
+```
 
 ## Using  function
 SQLAlchemy's [func](https://docs.sqlalchemy.org/en/14/core/functions.html) module provides access to built-in SQL functions that can make operations like counting and summing faster and more efficient.
