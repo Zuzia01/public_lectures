@@ -62,7 +62,7 @@ Oczywiście wszystkie te polecenia można łączyć, np.:
 
 **Zadanie 2**
 1. Wyświetl ostatnie dwa wpisy w repozytorium.
-2. Wyświetl wszystkie logi z maja 2020 roku.
+2. Wyświetl wszystkie logi z poprzedniego i bieżącego miesiąca.
 3. Wyświetl zatwierdzenia zmieniając tekst: 'Jestem w'.
 
 Po za możliwością wyszukiwani istnieje również opcja formatowania wyjścia, przy pomocy komend:
