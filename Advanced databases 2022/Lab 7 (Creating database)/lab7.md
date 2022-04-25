@@ -131,6 +131,19 @@ USER = Table('users', MetaData(bind=engine), Column('id', Integer, primary_key =
 USER.create(engine)
 ```
 
+If we want to check if a given structure already exists in the database, we can use the following script:
+
+```python
+from sqlalchemy_utils import database_exists, create_database
+
+if not database_exists(engine.url):
+    create_database(engine.url)
+else:
+    # Connect the database if exists.
+    engine.connect()
+    Base.metadata.create_all(engine)
+
+```
 ## Exercise
 
 Based on the database schema:
